@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#d1{
+    margin-left: 100px;
+}
+ #d2{
+    margin-left: 300px;
+    margin-top: 30px;
+    color: black;
+}
+nav div ul a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-weight: 590;
+    font-size: 17px;
+}
+li a::after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 3px;
+    background-color: rgb(100, 22, 173);
+    margin: 0%;
+    margin-left:13px ;
+    display: block;
+    transform: scale(0,1);
+    transition: transform 0.3s ;  
+}
+li a:hover::after{
+    transform: scale(1, 1);
+}
+li a:hover{
+    width: 8%;
+    color: blueviolet;
+}
+.wraper{
+    position: absolute;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    top: 1400px;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    box-sizing: border-box;
+}
+.container{
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+}
+i{
+    color: rgb(241, 239, 239);
+    font-size: 4.5em;
+    text-align: center;
+}
+span.num{
+    color: rgb(236, 229, 229);
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+}
+span.text{
+    color: rgb(238, 231, 231);
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+}
+section{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://www.reliablesoft.net/wp-content/uploads/2021/10/digital-marketing-team.webp);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position:absolute;
+    top: 0px;
+    left: 0%;
+    height: 400px;
+    width: 100%;
+    background-color: rgba(71, 3, 102, 0.8);
+}
+.pen{
+    position: absolute;
+    top:2300px;
+    left: 350px;
+}
+ .g1{
+    position: absolute;
+    top: 2100px;
+    left: 400px;
+}
+.g2{
+    position: absolute;
+    top: 2150px;
+    left: 470px;
+}
+#g3{
+    position: absolute;
+    top: 2200px;
+    left:430px ;
+    color: rgb(172, 99, 3);
+}
